@@ -118,6 +118,13 @@ a:focus-visible, input:focus-visible {
 }
 .nav-menu a:hover { text-decoration: underline; text-underline-offset: 6px; }
 
+/* 目前所在頁面 */
+.nav-menu a[aria-current="page"] {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 6px;
+}
+
 /* Logo：置中並向上突出 header */
 .nav-logo {
   grid-column: 2;
